@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Gameplay Utilities",
+	"Description": "A collection of reusable gameplay mechanics and utility functions for Unreal Engine",
+	"Category": "Gameplay",
+	"CreatedBy": "CountZer0",
+	"CreatedByURL": "https://github.com/CountZer0/unreal_utils",
+	"DocsURL": "https://github.com/CountZer0/unreal_utils/tree/main/Plugins/GameplayUtils",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/CountZer0/unreal_utils/issues",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GameplayUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
