@@ -13,6 +13,7 @@ This repository contains a variety of utilities designed to streamline and enhan
 - **Performance Optimization**: Utilities for profiling and optimizing Unreal Engine projects
 - **Gameplay Helpers**: Common gameplay mechanics and systems
 - **Asset Management**: Tools for managing and organizing project assets
+- **Python Scripting**: Python utilities and scripts for Unreal Engine 5.5
 
 ## Getting Started
 
@@ -21,6 +22,7 @@ This repository contains a variety of utilities designed to streamline and enhan
 - Unreal Engine 4.26 or later (some utilities may work with earlier versions)
 - Basic knowledge of Unreal Engine development
 - Visual Studio 2019 or later (for C++ utilities)
+- Python 3.9+ (for Python utilities in UE5.5)
 
 ### Installation
 
@@ -35,6 +37,13 @@ This repository contains a variety of utilities designed to streamline and enhan
 
 1. Browse the repository for specific utilities you need
 2. Follow the installation instructions in each utility's documentation
+
+#### Python Tools
+
+1. Enable the Python Editor Script Plugin in Edit > Plugins > Scripting
+2. Copy the PythonTools plugin to your project's Plugins directory
+3. Copy the Python scripts from Snippets/Python to your project
+4. See the [Python documentation](Documentation/Python/README.md) for more details
 
 ## Documentation
 
@@ -52,13 +61,28 @@ unreal_utils/
 ├── Plugins/
 │   ├── EditorTools/
 │   ├── GameplayUtils/
-│   └── PerformanceTools/
+│   ├── PerformanceTools/
+│   └── PythonTools/
 ├── Snippets/
 │   ├── Blueprint/
-│   └── C++/
+│   ├── C++/
+│   └── Python/
 ├── Examples/
 └── Documentation/
+    └── Python/
 ```
+
+## Python Tools
+
+The Python tools provide a variety of utilities for automating tasks in Unreal Engine 5.5:
+
+- **Asset Management**: Find, organize, and manipulate assets
+- **Editor Automation**: Create custom editor tools and commands
+- **Level Design**: Automate level design tasks
+- **Data Processing**: Process and transform data
+- **UI Extensions**: Create custom UI elements
+
+See the [Python documentation](Documentation/Python/README.md) for more details.
 
 ## Contributing
 
